@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+black = "*"
+python-dotenv = "*"
+djlint = "*"
+pandas = "*"
+django-bootstrap5 = "*"
+django-auto-logout = "*"
+plotly = "*"
+seaborn = "*"
+matplotlib = "*"
+icecream = "*"
+imblearn = "*"
+keras = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
